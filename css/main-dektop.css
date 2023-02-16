@@ -1,0 +1,131 @@
+@media screen and (min-width: 1440px) {
+
+    /* modern art gallery */
+
+    .desktop-background-image {
+        background-color: #151515;
+        padding: 189px 0px 434px 0px;
+        margin-top: -3px;
+    }
+
+    .desktop-background-image h1 {
+        color: #FFFFFF;
+        font-size: 96px;
+        font-weight: 900;
+        line-height: 88px;
+        position: relative;
+        left: 162px;
+        background-image: linear-gradient(90deg, #ffff 0, #fff 3em, #151515 3em, #151515 5em );
+        color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .modern-art-content h1 {
+        display: none;
+    }
+
+    .modern-art-content p {
+        font-size: 22px;
+        margin-bottom: 64px;
+    }
+
+    .modern-art-content {
+        margin-top: -40px;
+    }
+
+    .image-hero-tablet {
+        display: none;
+    }
+
+    /* grid container */
+
+    /* grid item 2 */
+    .grid-item2-tablet h1 {
+        width: 350px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .grid-item2-tablet p {
+        width: 350px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    /* grid item 5 */
+
+    .grid-item5-tablet {
+        width: 350px;
+        height: 248px;
+        padding: 65px 47px 64px 48px!important;
+    }
+
+
+    .grid-item5-tablet h1 {
+        width: 350px;
+        height: 120px;
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 32px;
+    }
+
+    .grid-item5-tablet p {
+        width: 350px;
+        height: 96px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+
+    /* grid items */
+    
+    .grid-item1-desktop {
+        grid-area: item1;
+        margin-left: -190px;
+    }
+
+    .grid-item2-tablet {
+        padding: 60px 0px 20px 0px;
+        grid-area: item2;
+        width: 350px;
+    } 
+
+    .grid-item3-desktop {
+        grid-area: item3;
+    }
+
+    .grid-item4-desktop {
+        grid-area: item4;
+    }
+
+    .grid-item5-tablet {
+        grid-area: item5;
+    }
+
+    .grid-container {
+        width: 1110px;
+        gap: 30px;
+        padding: 180px 165px;
+    }
+
+    /* footer */
+
+    .footer-div {
+        width: 1110px;
+    }
+
+    .footer-div p {
+        width: 430px;
+        height: 84px;
+        margin-left: 140.43px;
+        margin-right: 260px;
+    }
+
+    .logo-light {
+        width: 159.57px;
+        height: 58px;
+    }
+
+
+    
+}

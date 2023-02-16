@@ -41,6 +41,7 @@ p {
 .our-location button {
     padding: 24px 35px 24px 32px;
     background-color: #151515;
+    cursor: pointer;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 800;
@@ -168,6 +169,14 @@ p {
 }
 
 
+
+@media screen and (max-width: 1439px){
+    .grid-item1-desktop, .grid-item3-desktop,  .grid-item4-desktop {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width: 767px) {
     .image-hero-tablet {
         display: none;
@@ -176,7 +185,17 @@ p {
     .grid-item1-tablet, .grid-item3-tablet,  .grid-item4-tablet, .grid-item5-tablet, .grid-item2-tablet  {
         display: none;
     }
+
+    .image-hero-desktop, .desktop-background-image {
+            display: none;
+        }
+
+    
+        
 }
+ 
+    
+
 
 
 
